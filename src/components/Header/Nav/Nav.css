@@ -1,0 +1,24 @@
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.logoBox {
+  max-width: 50px;
+  overflow: hidden;
+}
+
+.logoBox a img {
+  width: 100%;
+}
+.linkBox a {
+  margin: auto 20px;
+  font-size: 20px;
+  color: #ffffff;
+}

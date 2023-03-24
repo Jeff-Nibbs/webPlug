@@ -1,0 +1,30 @@
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.cta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cta-title {
+  font-size: 95px;
+  margin: 0;
+}
+.cta-text {
+  font-size: 40px;
+  margin: 0;
+}
+.cta-btn {
+  margin: 50px auto;
+  padding: 25px 60px;
+  border-radius: 30px;
+  font-size: 25px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.cta-img img {
+  margin: auto;
+  width: 80%;
+}

@@ -1,0 +1,31 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 100px auto;
+}
+.form-container h2 {
+  margin: 20px auto;
+  font-size: 50px;
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.2rem;
+  max-width: 70%;
+  margin: auto;
+}
+
+input,
+textarea,
+form button {
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background: transparent;
+  border: 2px solid #d1d1d1;
+  resize: none;
+  color: #d1d1d1;
+}

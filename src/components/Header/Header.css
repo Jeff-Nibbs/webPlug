@@ -1,0 +1,5 @@
+.header-container {
+  margin: 50px auto 100px;
+  display: grid;
+  min-width: 100%;
+}
