@@ -3,7 +3,7 @@ import './AboutUs.css'
 
 function AboutUs() {
   return (
-    <div className='about-container'>
+    <div id='aboutUs' className='about-container'>
       <h2 className='about-title'>Sum About Us</h2>
       <p>
         Welcome to Web Plugs, your one-stop plug for exceptional web development services that propel your online presence to new heights. Our team of

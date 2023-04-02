@@ -3,7 +3,7 @@ import './Contact.css'
 
 function Contact() {
   return (
-    <div className='form-container'>
+    <div id='contact' className='form-container'>
       <h2>Get at Us</h2>
       <form>
         <input type='text' name='name' placeholder='Your Full Name' required />

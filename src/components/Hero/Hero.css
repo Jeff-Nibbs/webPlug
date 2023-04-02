@@ -23,6 +23,7 @@
   font-size: 25px;
   font-weight: 600;
   cursor: pointer;
+  background: #f9f9f9;
 }
 .cta-img img {
   margin: auto;
