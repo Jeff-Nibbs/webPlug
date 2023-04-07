@@ -35,3 +35,38 @@
   margin: auto;
   width: 80%;
 }
+
+@media screen and (max-width: 1104px) {
+  .cta-title {
+    font-size: 65px;
+  }
+  .cta-text {
+    font-size: 30px;
+  }
+  .cta-btn {
+    margin: 50px auto;
+    padding: 15px 40px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+  .cta {
+    margin: 50px auto;
+  }
+  .cta-title {
+    font-size: 65px;
+  }
+  .cta-text {
+    font-size: 30px;
+  }
+  .cta-btn {
+    margin: 50px auto;
+    padding: 15px 40px;
+    font-size: 20px;
+    color: #805326;
+  }
+}
