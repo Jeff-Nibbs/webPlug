@@ -11,10 +11,14 @@
 .cta-title {
   font-size: 95px;
   margin: 0;
+  color: #edddab;
+  font-weight: 700;
 }
 .cta-text {
   font-size: 40px;
   margin: 0;
+  color: #edddab;
+  font-weight: 500;
 }
 .cta-btn {
   margin: 50px auto;
@@ -23,9 +27,46 @@
   font-size: 25px;
   font-weight: 600;
   cursor: pointer;
-  background: #f9f9f9;
+  background: transparent;
+  color: #edddab;
+  border: 5px solid #689d63;
 }
 .cta-img img {
   margin: auto;
   width: 80%;
+}
+
+@media screen and (max-width: 1104px) {
+  .cta-title {
+    font-size: 65px;
+  }
+  .cta-text {
+    font-size: 30px;
+  }
+  .cta-btn {
+    margin: 50px auto;
+    padding: 15px 40px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+  .cta {
+    margin: 50px auto;
+  }
+  .cta-title {
+    font-size: 65px;
+  }
+  .cta-text {
+    font-size: 30px;
+  }
+  .cta-btn {
+    margin: 50px auto;
+    padding: 15px 40px;
+    font-size: 20px;
+    color: #805326;
+  }
 }
