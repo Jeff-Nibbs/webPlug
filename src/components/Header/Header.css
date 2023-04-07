@@ -4,7 +4,6 @@
   min-width: 100%;
   background-attachment: fixed;
   background-position: center;
-  background-clip: border-box;
   background-repeat: no-repeat;
   background-size: cover;
 }
