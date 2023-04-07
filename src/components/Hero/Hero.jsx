@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link, animateScroll as scroll } from 'react-scroll'
-import globe from '../asset/earth.png'
 import './Hero.css'
 
 function Hero() {
@@ -10,7 +9,7 @@ function Hero() {
         <div className='cta'>
           <h1 className='cta-title'>Daddy Vibes</h1>
           <h3 className='cta-text'>I know you want to</h3>
-          <Link to='contact' smooth={true} delay={150} duration={1000} isDynamic={true} className='cta-btn'>
+          <Link to='contact' smooth={true} delay={150} duration={1000} isDynamic={true} offset={160} className='cta-btn'>
             Hit me up
           </Link>
         </div>
