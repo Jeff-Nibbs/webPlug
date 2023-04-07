@@ -3,10 +3,18 @@
   justify-content: center;
   flex-direction: column;
   margin: 100px auto;
+  padding: 157px 0;
+  background-image: url('../../assets/bg2.png');
+  background-attachment: fixed;
+  background-position: center;
+  background-clip: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .form-container h2 {
   margin: 20px auto;
-  font-size: 50px;
+  font-size: 100px;
+  color: #5d2613;
 }
 form {
   display: flex;
@@ -14,7 +22,7 @@ form {
   align-items: center;
   flex-direction: column;
   gap: 1.2rem;
-  max-width: 70%;
+  min-width: 30%;
   margin: auto;
 }
 
@@ -22,10 +30,26 @@ input,
 textarea,
 form button {
   width: 100%;
-  padding: 1.5rem;
+  padding: 1rem;
   border-radius: 0.5rem;
-  background: transparent;
-  border: 2px solid #d1d1d1;
+  background: rgba(251, 237, 225, 0.5);
+  border: 5px solid #689d63;
   resize: none;
-  color: #d1d1d1;
+  color: #805326;
+  font-size: 25px;
+  font-weight: 700;
+}
+input::placeholder,
+textarea::placeholder,
+form button::placeholder {
+  color: #805326;
+  font-size: 25px;
+  font-weight: 700;
+  opacity: 0.5;
+}
+form > button:hover {
+  background: #f9f9f9;
+  color: #805326;
+  opacity: 0.5;
+  cursor: pointer;
 }

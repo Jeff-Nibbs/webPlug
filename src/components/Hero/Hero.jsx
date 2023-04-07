@@ -14,9 +14,7 @@ function Hero() {
             Hit me up
           </Link>
         </div>
-        <div className='cta-img'>
-          <img src={globe} alt='globe' />
-        </div>
+        <div className='cta-img'></div>
       </div>
     </div>
   )

@@ -8,8 +8,8 @@ function Nav() {
   return (
     <div className='nav-bar'>
       <div className='logoBox'>
-        <Link to='header' smooth={true} delay={150} duration={1000} isDynamic={true}>
-          <img src={logoWhite} alt='logo' />
+        <Link to='header' smooth={true} delay={150} duration={1000} isDynamic={true} offset={-50}>
+          <img src={logoBlack} alt='logo' />
         </Link>
       </div>
       <div className='linkBox'>
@@ -19,7 +19,7 @@ function Nav() {
         <Link to='portfolio' smooth={true} delay={150} duration={1000} isDynamic={true} offset={-50}>
           Services
         </Link>
-        <Link to='contact' smooth={true} delay={150} duration={1000} isDynamic={true}>
+        <Link to='contact' smooth={true} delay={150} duration={1000} isDynamic={true} offset={160}>
           Contact Us
         </Link>
       </div>

@@ -1,5 +1,11 @@
 .header-container {
-  margin: 50px auto 100px;
+  padding: 157px 0;
   display: grid;
   min-width: 100%;
+  background-image: url('../../assets/bg2.png');
+  background-attachment: fixed;
+  background-position: center;
+  background-clip: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

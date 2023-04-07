@@ -1,5 +1,13 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+*:focus {
+  outline: none;
+}
 body {
-  background-color: black;
+  background-color: #fbede1;
   color: #f9f9f9;
 }
 
