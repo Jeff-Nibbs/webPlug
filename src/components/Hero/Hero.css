@@ -70,3 +70,11 @@
     color: #805326;
   }
 }
+@media screen and (max-width: 480px) {
+  .cta-title {
+    font-size: 45px;
+  }
+  .cta-text {
+    font-size: 20px;
+  }
+}

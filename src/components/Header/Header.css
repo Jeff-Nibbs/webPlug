@@ -2,10 +2,26 @@
   padding: 157px 0;
   display: grid;
   min-width: 100%;
-  background-image: url('../../assets/bg2.png');
   background-attachment: fixed;
   background-position: center;
   background-clip: border-box;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media (max-width: 480px) {
+  .header-container {
+    background-image: url('../../assets/bg2.png');
+  }
+}
+@media (min-width: 481px) and (max-width: 1024px) {
+  .header-container {
+    background-image: url('../../assets/bg2.png');
+  }
+}
+
+@media (min-width: 1025px) {
+  .header-container {
+    background-image: url('../../assets/bg2.png');
+  }
 }

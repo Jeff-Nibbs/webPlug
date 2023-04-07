@@ -4,7 +4,6 @@
   flex-direction: column;
   margin: 100px auto;
   padding: 157px 0;
-  background-image: url('../../assets/bg2.png');
   background-attachment: fixed;
   background-position: center;
   background-clip: border-box;
@@ -52,4 +51,21 @@ form > button:hover {
   color: #805326;
   opacity: 0.5;
   cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .form-container {
+    background-image: url('../../assets/bg2.png');
+  }
+}
+@media (min-width: 481px) and (max-width: 1024px) {
+  .form-container {
+    background-image: url('../../assets/bg2.png');
+  }
+}
+
+@media (min-width: 1025px) {
+  .form-container {
+    background-image: url('../../assets/bg2.png');
+  }
 }
