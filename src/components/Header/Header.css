@@ -21,6 +21,7 @@
 @media (min-width: 481px) and (max-width: 1024px) {
   .header-container {
     background-image: url('../../assets/bg2.png');
+    background-attachment: scroll;
   }
 }
 

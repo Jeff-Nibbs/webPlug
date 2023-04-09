@@ -64,6 +64,7 @@ form > button:hover {
 @media (min-width: 481px) and (max-width: 1024px) {
   .form-container {
     background-image: url('../../assets/bg2.png');
+    background-attachment: scroll;
   }
 }
 
