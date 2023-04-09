@@ -7,8 +7,8 @@
   background-attachment: fixed;
   background-position: center;
   background-clip: border-box;
-  background-repeat: no-repeat;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 .form-container h2 {
   margin: 20px auto;
@@ -56,7 +56,7 @@ form > button:hover {
 @media (max-width: 480px) {
   .form-container {
     background-image: url('../../assets/bg2.png');
-    background-attachment: initial;
+    background-attachment: scroll;
   }
 }
 @media (min-width: 481px) and (max-width: 1024px) {
