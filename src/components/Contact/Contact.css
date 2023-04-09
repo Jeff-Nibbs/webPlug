@@ -9,6 +9,7 @@
   background-clip: border-box;
   background-size: cover;
   background-repeat: no-repeat;
+  min-width: 100%;
 }
 .form-container h2 {
   margin: 20px auto;

@@ -4,8 +4,10 @@
   min-width: 100%;
   background-attachment: fixed;
   background-position: center;
+  background-clip: border-box;
   background-repeat: no-repeat;
   background-size: cover;
+  min-width: 100%;
 }
 
 @media (max-width: 480px) {
