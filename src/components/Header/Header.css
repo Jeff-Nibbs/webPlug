@@ -2,6 +2,7 @@
   padding: 157px 0;
   display: grid;
   min-width: 100%;
+  margin: 0 auto;
   background-attachment: fixed;
   background-position: center;
   background-clip: border-box;
