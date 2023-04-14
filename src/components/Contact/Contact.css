@@ -59,11 +59,27 @@ form > button:hover {
   .form-container {
     background-image: url('../../assets/bg2.png');
     background-attachment: scroll;
+    padding: 2vw 0;
   }
 }
-@media (min-width: 481px) and (max-width: 1024px) {
+@media (min-width: 481px) and (max-width: 599px) {
   .form-container {
     background-image: url('../../assets/bg2.png');
+    padding: 2vw 0;
+    background-attachment: scroll;
+  }
+}
+@media (min-width: 600px) and (max-width: 769px) {
+  .form-container {
+    background-image: url('../../assets/bg2.png');
+    padding: 5vw 0;
+    background-attachment: scroll;
+  }
+}
+@media (min-width: 770px) and (max-width: 1024px) {
+  .form-container {
+    background-image: url('../../assets/bg2.png');
+    padding: 10vw 0;
     background-attachment: scroll;
   }
 }
