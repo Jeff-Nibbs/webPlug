@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, animateScroll as scroll } from 'react-scroll'
-import logoBlack from '../../asset/logo-black2.png'
-import logoWhite from '../../asset/logo-white2.png'
+import logoBlack from '../../../assets/logo-black2.png'
+import logoWhite from '../../../assets/logo-white2.png'
 import './Nav.css'
 
 function Nav() {
@@ -16,7 +16,7 @@ function Nav() {
         <Link to='aboutUs' smooth={true} delay={150} duration={1000} isDynamic={true} offset={-100}>
           About Us
         </Link>
-        <Link to='portfolio' smooth={true} delay={150} duration={1000} isDynamic={true} offset={-50}>
+        <Link to='portfolio' smooth={true} delay={150} duration={1000} isDynamic={true}>
           Services
         </Link>
         <Link to='contact' smooth={true} delay={150} duration={1000} isDynamic={true} offset={160}>
